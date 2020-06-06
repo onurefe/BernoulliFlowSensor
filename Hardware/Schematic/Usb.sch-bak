@@ -1,0 +1,146 @@
+EESchema Schematic File Version 5
+EELAYER 33 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
+$EndDescr
+Connection ~ 5950 3525
+Connection ~ 5600 2775
+Connection ~ 4675 3100
+NoConn ~ 5650 3300
+Wire Wire Line
+	4375 3100 4675 3100
+Wire Wire Line
+	4375 3200 4700 3200
+Wire Wire Line
+	4675 2700 4675 2750
+Wire Wire Line
+	4675 3050 4675 3100
+Wire Wire Line
+	4675 3100 4700 3100
+Wire Wire Line
+	5150 2775 5600 2775
+Wire Wire Line
+	5150 2800 5150 2775
+Wire Wire Line
+	5150 3500 5150 3550
+Wire Wire Line
+	5600 2750 5600 2775
+Wire Wire Line
+	5600 2775 5600 2900
+Wire Wire Line
+	5600 2900 5650 2900
+Wire Wire Line
+	5600 3100 5650 3100
+Wire Wire Line
+	5600 3200 5650 3200
+Wire Wire Line
+	5950 3500 5950 3525
+Wire Wire Line
+	5950 3525 5950 3550
+Wire Wire Line
+	5950 3525 6050 3525
+Wire Wire Line
+	6050 3525 6050 3500
+Text HLabel 4375 3100 0    50   BiDi ~ 0
+USB_DP
+Text HLabel 4375 3200 0    50   BiDi ~ 0
+USB_DM
+$Comp
+L power:VDD #PWR017
+U 1 1 5E9FEF4B
+P 4675 2700
+F 0 "#PWR017" H 4675 2550 50  0001 C CNN
+F 1 "VDD" H 4800 2782 50  0000 C CNN
+F 2 "" H 4675 2700 50  0001 C CNN
+F 3 "" H 4675 2700 50  0001 C CNN
+	1    4675 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR029
+U 1 1 5E9F08E5
+P 5600 2750
+F 0 "#PWR029" H 5600 2600 50  0001 C CNN
+F 1 "+5V" H 5675 2889 50  0000 C CNN
+F 2 "" H 5600 2750 50  0001 C CNN
+F 3 "" H 5600 2750 50  0001 C CNN
+	1    5600 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR042
+U 1 1 5EA905D1
+P 5150 3550
+F 0 "#PWR042" H 5150 3300 50  0001 C CNN
+F 1 "GND" H 5025 3546 50  0000 C CNN
+F 2 "" H 5150 3550 50  0001 C CNN
+F 3 "" H 5150 3550 50  0001 C CNN
+	1    5150 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR030
+U 1 1 5E9E8C59
+P 5950 3550
+F 0 "#PWR030" H 5950 3300 50  0001 C CNN
+F 1 "GND" H 5825 3546 50  0000 C CNN
+F 2 "" H 5950 3550 50  0001 C CNN
+F 3 "" H 5950 3550 50  0001 C CNN
+	1    5950 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 5E9F9AF4
+P 4675 2900
+F 0 "R15" H 4475 2900 50  0000 L CNN
+F 1 "1.5k" H 4450 2975 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4605 2900 50  0001 C CNN
+F 3 "~" H 4675 2900 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CRGCQ0603J1K5/A130092CT-ND/8577924" H 4675 2900 50  0001 C CNN "Link"
+F 5 "0.0086$" H 4675 2900 50  0001 C CNN "Price"
+	1    4675 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_B_Mini J2
+U 1 1 5E9E83A1
+P 5950 3100
+F 0 "J2" H 5974 3522 50  0000 R CNN
+F 1 "USB_B_Mini" H 6160 3453 50  0000 R CNN
+F 2 "Connector_USB:USB_Mini-B_Wuerth_65100516121_Horizontal" H 6100 3050 50  0001 C CNN
+F 3 "~" H 6100 3050 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/edac-inc/690-005-299-043/151-1206-1-ND/4312192" H 5950 3100 50  0001 C CNN "Link"
+F 5 "0.4301$" H 5950 3100 50  0001 C CNN "Price"
+	1    5950 3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L oe_usb:NUF2221W6 U12
+U 1 1 5E7CDED1
+P 5150 3150
+F 0 "U12" H 4900 3484 31  0000 C CNN
+F 1 "NUF2221W6" H 4900 3546 31  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 5150 3150 31  0001 C CNN
+F 3 "" H 5150 3150 31  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/on-semiconductor/NUF2221W1T2G/NUF2221W1T2GOSCT-ND/720929" H 5150 3150 50  0001 C CNN "Link"
+F 5 "0.3$" H 5150 3150 50  0001 C CNN "Price"
+	1    5150 3150
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

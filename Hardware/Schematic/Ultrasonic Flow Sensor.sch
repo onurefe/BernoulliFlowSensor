@@ -1,0 +1,131 @@
+EESchema Schematic File Version 5
+EELAYER 33 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
+$EndDescr
+Connection ~ 2750 3550
+Wire Wire Line
+	2650 3650 2650 4600
+Wire Wire Line
+	2650 4600 2850 4600
+Wire Wire Line
+	2700 3750 2700 4700
+Wire Wire Line
+	2700 4700 2850 4700
+Wire Wire Line
+	2750 2650 2825 2650
+Wire Wire Line
+	2750 3550 2750 2650
+Wire Wire Line
+	2750 4400 2750 3550
+Wire Wire Line
+	2850 3550 2750 3550
+Wire Wire Line
+	2850 3650 2650 3650
+Wire Wire Line
+	2850 3750 2700 3750
+Wire Wire Line
+	2850 4400 2750 4400
+Wire Wire Line
+	4300 3500 4600 3500
+Wire Wire Line
+	4300 3600 4600 3600
+Wire Wire Line
+	4300 4300 4600 4300
+Wire Wire Line
+	4300 4400 4600 4400
+Wire Wire Line
+	4300 4800 4600 4800
+Wire Wire Line
+	6300 2300 6625 2300
+Wire Wire Line
+	6300 2400 6625 2400
+Wire Wire Line
+	6300 2500 6625 2500
+Wire Wire Line
+	6300 2600 6625 2600
+Wire Wire Line
+	6300 3100 6625 3100
+Wire Wire Line
+	6300 3200 6625 3200
+$Sheet
+S 2850 3400 1450 625 
+U 5E9A8C02
+F0 "AnalogFrontend" 50
+F1 "AnalogFrontend.sch" 50
+F2 "SAMPLING_Y" O R 4300 3600 50 
+F3 "Y_RXIN" I L 2850 3750 50 
+F4 "SAMPLING_X" O R 4300 3500 50 
+F5 "X_RXIN" I L 2850 3650 50 
+F6 "OP_BIAS" I L 2850 3550 50 
+$EndSheet
+$Sheet
+S 6625 2175 875  525 
+U 5E9E3710
+F0 "LogicLevelConverter" 50
+F1 "LogicLevelConverter.sch" 50
+F2 "SCK" O L 6625 2500 50 
+F3 "NSS" O L 6625 2600 50 
+F4 "MISO" I L 6625 2400 50 
+F5 "MOSI" O L 6625 2300 50 
+$EndSheet
+$Sheet
+S 4600 2150 1700 2850
+U 5E9C090F
+F0 "Mcu" 50
+F1 "Mcu.sch" 50
+F2 "PULSE" O L 4600 4800 50 
+F3 "USB_DM" B R 6300 3100 50 
+F4 "MISO" O R 6300 2400 50 
+F5 "SCK" I R 6300 2500 50 
+F6 "MOSI" I R 6300 2300 50 
+F7 "USB_DP" B R 6300 3200 50 
+F8 "TXRX_CTRL" O L 4600 4300 50 
+F9 "~TXRX_EN" O L 4600 4400 50 
+F10 "NSS" I R 6300 2600 50 
+F11 "SAMPLING_X" I L 4600 3500 50 
+F12 "SAMPLING_Y" I L 4600 3600 50 
+$EndSheet
+$Sheet
+S 2850 4225 1450 725 
+U 5E98FB26
+F0 "TxRx" 50
+F1 "TxRx.sch" 50
+F2 "RX_Y" O L 2850 4700 50 
+F3 "DIRECTION_CTRL" I R 4300 4300 50 
+F4 "~EN" I R 4300 4400 50 
+F5 "RX_X" O L 2850 4600 50 
+F6 "PULSE" I R 4300 4800 50 
+F7 "OP_BIAS" I L 2850 4400 50 
+$EndSheet
+$Sheet
+S 6625 2825 875  525 
+U 5E9DE24C
+F0 "Usb" 50
+F1 "Usb.sch" 50
+F2 "USB_DM" B L 6625 3100 50 
+F3 "USB_DP" B L 6625 3200 50 
+$EndSheet
+$Sheet
+S 2825 2150 1450 1025
+U 5E9B4AFA
+F0 "Voltage" 50
+F1 "Voltage.sch" 50
+F2 "OP_BIAS" O L 2825 2650 50 
+$EndSheet
+$EndSCHEMATC

@@ -1,0 +1,10 @@
+(sym_lib_table
+  (lib (name "swd-dbg-conn")(type "Legacy")(uri "${KIPRJMOD}/../MyKicadLibrary/swd-dbg-conn.lib")(options "")(descr ""))
+  (lib (name "tsv912")(type "Legacy")(uri "${KIPRJMOD}/../MyKicadLibrary/tsv912.lib")(options "")(descr ""))
+  (lib (name "cap_precision")(type "Legacy")(uri "${KIPRJMOD}/../MyKicadLibrary/cap_precision.lib")(options "")(descr ""))
+  (lib (name "res_precision")(type "Legacy")(uri "${KIPRJMOD}/../MyKicadLibrary/res_precision.lib")(options "")(descr ""))
+  (lib (name "ts3a44159pwr")(type "Legacy")(uri "${KIPRJMOD}/../MyKicadLibrary/ts3a44159pwr.lib")(options "")(descr ""))
+  (lib (name "Ultrasonic-Flow-Sensor-rescue")(type "Legacy")(uri "${KIPRJMOD}/Ultrasonic Flow Sensor-rescue.lib")(options "")(descr ""))
+  (lib (name "oe_analog-sw-mux")(type "Legacy")(uri "/home/onur/Desktop/GitRepos/oe-kicadlib/Symbols/oe_analog-sw-mux.lib")(options "")(descr ""))
+  (lib (name "oe_usb")(type "Legacy")(uri "/home/onur/Desktop/GitRepos/oe-kicadlib/Symbols/oe_usb.lib")(options "")(descr ""))
+)

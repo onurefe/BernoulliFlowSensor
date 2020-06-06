@@ -1,0 +1,1462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/onure/Desktop/Github/Hobby Meteorology Station/Schematic/Ultrasonic Flow Sensor.sch</source>
+    <date>10.04.2017 13:57:39</date>
+    <tool>Eeschema 4.0.5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Ultrasonic Flow Sensor.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R4">
+      <value>100R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/RC0603JR-07100RL/311-100GRCT-ND/729644</field>
+        <field name="Price">0.1$</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E531B3</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/RC0603JR-0710KL/311-10KGRCT-ND/729647</field>
+        <field name="Price">0.1$</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E5403B</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>Ferrite_Bead</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/wurth-electronics-inc/74279266/732-4484-1-ND/3907313</field>
+        <field name="Price">0.2$</field>
+      </fields>
+      <libsource lib="device" part="Ferrite_Bead"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E590B6</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>1u</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM188R61C105KA93D/490-1536-1-ND/587769</field>
+        <field name="Price">0.1$</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E5A2BA</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumper_NO_Small</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/3m/969102-0000-DA/3M9580-ND/2071621</field>
+        <field name="Price">0.1$</field>
+      </fields>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E60B06</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/CC0603ZRY5V9BB104/311-1343-1-ND/2103127</field>
+        <field name="Price">0.1$</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58EE8486</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <fields>
+        <field name="Voltage">35V</field>
+        <field name="Tolerance">%5</field>
+        <field name="Temperature coefficient">C0G</field>
+        <field name="Price">0.37$</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM31C5C1E104JA01L/490-1767-1-ND/587366</field>
+      </fields>
+      <libsource lib="cap_precision" part="C_Precision"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58EFCB88</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>TPS79333-EP</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-5</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/texas-instruments/TPS79333DBVR/296-12961-1-ND/476149</field>
+        <field name="Price">0.72$</field>
+      </fields>
+      <libsource lib="regul" part="TPS793333-EP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F20750</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>10n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/CC0603KRX7R9BB103/311-1085-1-ND/302995</field>
+        <field name="Price">0.1$</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F23227</tstamp>
+    </comp>
+    <comp ref="P8">
+      <value>CONN_01X03</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/wurth-electronics-inc/61300311121/732-5316-ND/4846825</field>
+        <field name="Price">0.13$</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F30A8B</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>4.7k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Tolerance">%1</field>
+        <field name="Temperature coefficient">100ppm</field>
+        <field name="Price">0.1$</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/RC0603FR-074K7L/311-4.70KHRCT-ND/730159</field>
+      </fields>
+      <libsource lib="res_precision" part="R_Precision"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F4C02C</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R71C104KA88J/490-6328-1-ND/3845525</field>
+        <field name="Price">0.1$</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E92919</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R71C104KA88J/490-6328-1-ND/3845525</field>
+        <field name="Price">0.1$</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E9353C</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>TS3A44159PWR</value>
+      <footprint>Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/texas-instruments/TS3A44159PWR/296-21915-1-ND/1629268</field>
+        <field name="Price">1.07$</field>
+      </fields>
+      <libsource lib="ts3a44159pwr" part="TS3A44159PWR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E9FCEC</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>TS3A44159PWR</value>
+      <footprint>Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/texas-instruments/TS3A44159PWR/296-21915-1-ND/1629268</field>
+        <field name="Price">1.07$</field>
+      </fields>
+      <libsource lib="ts3a44159pwr" part="TS3A44159PWR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E9FE62</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>8MHZ</value>
+      <footprint>Crystals:Crystal_SMD_Abracon_ABM3-2pin_5.0x3.2mm</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/abracon-llc/ABM3-8.000MHZ-D2Y-T/535-10630-1-ND/2344632</field>
+        <field name="Price">0.63$</field>
+        <field name="Load capacitance">18p</field>
+      </fields>
+      <libsource lib="device" part="Crystal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E54FF1</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>STM32F030C8Tx</value>
+      <footprint>Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/stmicroelectronics/STM32F030C8T6/497-14043-ND/4357252</field>
+        <field name="Price">2.02$</field>
+      </fields>
+      <libsource lib="stm32" part="STM32F030C8Tx"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58EB2473</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>CONN_01X05</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/wurth-electronics-inc/61300511121/732-5318-ND/4846831</field>
+        <field name="Price">0.23$</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X05"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E64B4E</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R71C104KA88J/490-6328-1-ND/3845525</field>
+        <field name="Price">0.1$</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F0D0FE</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>22k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Tolerance">%1</field>
+        <field name="Temperature coefficient">100ppm</field>
+        <field name="Price">0.1$</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/RC0603FR-0722KL/311-22.0KHRCT-ND/730003</field>
+      </fields>
+      <libsource lib="res_precision" part="R_Precision"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F16F56</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>150R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Tolerance">%1</field>
+        <field name="Temperature coefficient">50ppm</field>
+        <field name="Price">0.17$</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/vishay-beyschlag/MCT06030C1500FP500/MCT0603-150-CFCT-ND/2607884</field>
+      </fields>
+      <libsource lib="res_precision" part="R_Precision"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F1AB81</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>TSV912</value>
+      <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/stmicroelectronics/TSV912AIDT/497-5829-1-ND/1506482</field>
+        <field name="Price">0.94$</field>
+      </fields>
+      <libsource lib="linear" part="TSV912"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58EAABA7</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Tolerance">%1</field>
+        <field name="Temperature coefficient">100ppm</field>
+        <field name="Price">0.1$</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/RC0603FR-07100KL/311-100KHRCT-ND/729836</field>
+      </fields>
+      <libsource lib="res_precision" part="R_Precision"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58EB84F2</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <fields>
+        <field name="Voltage">35V</field>
+        <field name="Tolerance">%5</field>
+        <field name="Temperature coefficient">C0G</field>
+        <field name="Price">0.37$</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM31C5C1E104JA01L/490-1767-1-ND/587366</field>
+      </fields>
+      <libsource lib="cap_precision" part="C_Precision"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58EBE860</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/CC0603ZRY5V9BB104/311-1343-1-ND/2103127</field>
+        <field name="Price">0.1$</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58EC3E00</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/CC0603ZRY5V9BB104/311-1343-1-ND/2103127</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58EC4449</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/CC0603ZRY5V9BB104/311-1343-1-ND/2103127</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58EC4515</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/CC0603ZRY5V9BB104/311-1343-1-ND/2103127</field>
+        <field name="Price">0.1$</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58EC6115</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/CC0603ZRY5V9BB104/311-1343-1-ND/2103127</field>
+        <field name="Price">0.1$</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58EC8D7E</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/CC0603ZRY5V9BB104/311-1343-1-ND/2103127</field>
+        <field name="Price">0.1$</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58EC9F50</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/CC0603ZRY5V9BB104/311-1343-1-ND/2103127</field>
+        <field name="Price">0.1$</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58ECE309</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/CC0603ZRY5V9BB104/311-1343-1-ND/2103127</field>
+        <field name="Price">0.1$</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58ED1B8F</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/CC0603ZRY5V9BB104/311-1343-1-ND/2103127</field>
+        <field name="Price">0.1$</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58ED568F</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/taiyo-yuden/EMK212BJ106KG-T/587-1295-1-ND/931072</field>
+        <field name="Price">0.19$</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58ED7822</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/taiyo-yuden/EMK212BJ106KG-T/587-1295-1-ND/931072</field>
+        <field name="Price">0.19$</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58ED9358</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/taiyo-yuden/EMK212BJ106KG-T/587-1295-1-ND/931072</field>
+        <field name="Price">0.19$</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58EDFBD7</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>20R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Tolerance">%1</field>
+        <field name="Temperature coefficient">100ppm</field>
+        <field name="Price">0.1$</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/RC0603FR-0720RL/311-20.0HRCT-ND/729986</field>
+      </fields>
+      <libsource lib="res_precision" part="R_Precision"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58EEEBFA</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>150R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Tolerance">%1</field>
+        <field name="Temperature coefficient">50ppm</field>
+        <field name="Price">0.17$</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/vishay-beyschlag/MCT06030C1500FP500/MCT0603-150-CFCT-ND/2607884</field>
+      </fields>
+      <libsource lib="res_precision" part="R_Precision"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F0FB8E</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>22k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Tolerance">%1</field>
+        <field name="Temperature coefficient">100ppm</field>
+        <field name="Price">0.1$</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/RC0603FR-0722KL/311-22.0KHRCT-ND/730003</field>
+      </fields>
+      <libsource lib="res_precision" part="R_Precision"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F2F370</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>22k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Tolerance">%1</field>
+        <field name="Temperature coefficient">100ppm</field>
+        <field name="Price">0.1$</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/RC0603FR-0722KL/311-22.0KHRCT-ND/730003</field>
+      </fields>
+      <libsource lib="res_precision" part="R_Precision"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F2F446</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>22k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Tolerance">%1</field>
+        <field name="Temperature coefficient">100ppm</field>
+        <field name="Price">0.1$</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/RC0603FR-0722KL/311-22.0KHRCT-ND/730003</field>
+      </fields>
+      <libsource lib="res_precision" part="R_Precision"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F2FAE2</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Tolerance">%1</field>
+        <field name="Temperature coefficient">100ppm</field>
+        <field name="Price">0.1$</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/RC0603FR-07100KL/311-100KHRCT-ND/729836</field>
+      </fields>
+      <libsource lib="res_precision" part="R_Precision"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F314F7</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Tolerance">%1</field>
+        <field name="Temperature coefficient">100ppm</field>
+        <field name="Price">0.1$</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/RC0603FR-07100KL/311-100KHRCT-ND/729836</field>
+      </fields>
+      <libsource lib="res_precision" part="R_Precision"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F31AE0</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Tolerance">%1</field>
+        <field name="Temperature coefficient">100ppm</field>
+        <field name="Price">0.1$</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/RC0603FR-07100KL/311-100KHRCT-ND/729836</field>
+      </fields>
+      <libsource lib="res_precision" part="R_Precision"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F31ECD</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>27p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Voltage">50V</field>
+        <field name="Tolerance">%5</field>
+        <field name="Temperature coefficient">C0G</field>
+        <field name="Price">0.1$</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL10C270JB8NNNC/1276-1086-1-ND/3889172</field>
+      </fields>
+      <libsource lib="cap_precision" part="C_Precision"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F36B88</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>27p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Voltage">50V</field>
+        <field name="Tolerance">%5</field>
+        <field name="Temperature coefficient">C0G</field>
+        <field name="Price">0.1$</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL10C270JB8NNNC/1276-1086-1-ND/3889172</field>
+      </fields>
+      <libsource lib="cap_precision" part="C_Precision"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F378A3</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/RC0603JR-0710KL/311-10KGRCT-ND/729647</field>
+        <field name="Price">0.1$</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F39F96</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>SWD_Conn</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x05_Pitch1.27mm_SMD</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/amphenol-fci/20021121-00010C4LF/609-3695-1-ND/2209147</field>
+        <field name="Price">0.8$</field>
+      </fields>
+      <libsource lib="swd-dbg-conn" part="SWD_Conn"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E536C1</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>4.7k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Tolerance">%1</field>
+        <field name="Temperature coefficient">100ppm</field>
+        <field name="Price">0.1$</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/RC0603FR-074K7L/311-4.70KHRCT-ND/730159</field>
+      </fields>
+      <libsource lib="res_precision" part="R_Precision"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F43A53</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>150R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Tolerance">%1</field>
+        <field name="Temperature coefficient">50ppm</field>
+        <field name="Price">0.17$</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/vishay-beyschlag/MCT06030C1500FP500/MCT0603-150-CFCT-ND/2607884</field>
+      </fields>
+      <libsource lib="res_precision" part="R_Precision"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F4EA1E</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>150R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Tolerance">%1</field>
+        <field name="Temperature coefficient">50ppm</field>
+        <field name="Price">0.17$</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/vishay-beyschlag/MCT06030C1500FP500/MCT0603-150-CFCT-ND/2607884</field>
+      </fields>
+      <libsource lib="res_precision" part="R_Precision"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F4EAEF</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>150R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Tolerance">%1</field>
+        <field name="Temperature coefficient">50ppm</field>
+        <field name="Price">0.17$</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/vishay-beyschlag/MCT06030C1500FP500/MCT0603-150-CFCT-ND/2607884</field>
+      </fields>
+      <libsource lib="res_precision" part="R_Precision"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F4EBBF</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>150R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Tolerance">%1</field>
+        <field name="Temperature coefficient">50ppm</field>
+        <field name="Price">0.17$</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/vishay-beyschlag/MCT06030C1500FP500/MCT0603-150-CFCT-ND/2607884</field>
+      </fields>
+      <libsource lib="res_precision" part="R_Precision"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F4EC94</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>150R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Tolerance">%1</field>
+        <field name="Temperature coefficient">50ppm</field>
+        <field name="Price">0.17$</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/vishay-beyschlag/MCT06030C1500FP500/MCT0603-150-CFCT-ND/2607884</field>
+      </fields>
+      <libsource lib="res_precision" part="R_Precision"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F4ED6A</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>150R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Tolerance">%1</field>
+        <field name="Temperature coefficient">50ppm</field>
+        <field name="Price">0.17$</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/vishay-beyschlag/MCT06030C1500FP500/MCT0603-150-CFCT-ND/2607884</field>
+      </fields>
+      <libsource lib="res_precision" part="R_Precision"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F4EE41</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>20R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Tolerance">%1</field>
+        <field name="Temperature coefficient">100ppm</field>
+        <field name="Price">0.1$</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/RC0603FR-0720RL/311-20.0HRCT-ND/729986</field>
+      </fields>
+      <libsource lib="res_precision" part="R_Precision"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F57582</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_01x02</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/harwin-inc/M20-9990246/952-2262-ND/3728226</field>
+        <field name="Price">0.11$</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F62CD4</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_01x02</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/harwin-inc/M20-9990246/952-2262-ND/3728226</field>
+        <field name="Price">0.11$</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F6BFCB</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>CONN_01x02</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/harwin-inc/M20-9990246/952-2262-ND/3728226</field>
+        <field name="Price">0.11$</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F6C3CF</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>CONN_01x02</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/harwin-inc/M20-9990246/952-2262-ND/3728226</field>
+        <field name="Price">0.11$</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F6C95F</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>CONN_01X03</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com/product-detail/en/wurth-electronics-inc/61300311121/732-5316-ND/4846825</field>
+        <field name="Field5">0.13$</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F6F83D</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector, single row, 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <description>Connector, single row, 01x03</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X05">
+      <description>Connector, single row, 01x05</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X05</fp>
+        <fp>Pin_Header_Angled_1X05</fp>
+        <fp>Socket_Strip_Straight_1X05</fp>
+        <fp>Socket_Strip_Angled_1X05</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="cap_precision" part="C_Precision">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Precision</field>
+        <field name="Voltage">V</field>
+        <field name="Tolerance">%T</field>
+        <field name="Temperature coefficient">C</field>
+        <field name="Unit price">P</field>
+        <field name="Link">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Crystal">
+      <description>Two pin crystal</description>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Ferrite_Bead">
+      <description>Ferrite bead</description>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">Ferrite_Bead</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Jumper_NO_Small">
+      <description>Jumper, normally open</description>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_NO_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="res_precision" part="R_Precision">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Precision</field>
+        <field name="Tolerance">%T</field>
+        <field name="Temperature coefficient">C</field>
+        <field name="Unit price">P</field>
+        <field name="Link">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="stm32" part="STM32F030C8Tx">
+      <description>Core: ARM Cortex-M0 Package: LQFP48 Flash: 64KB Ram: 8KB Frequency: 48MHz Voltage: 2.4..3.6V IO-pins: 39</description>
+      <docs>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00088500.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32F030C8Tx</field>
+        <field name="Footprint">LQFP48</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="PC13/RTC_OUT_ALARM/RTC_OUT_CALIB/RTC_TAMP1/RTC_TS/SYS_WKUP2" type="BiDi"/>
+        <pin num="3" name="PC14/RCC_OSC32_IN" type="BiDi"/>
+        <pin num="4" name="PC15/RCC_OSC32_OUT" type="BiDi"/>
+        <pin num="5" name="PF0/RCC_OSC_IN" type="input"/>
+        <pin num="6" name="PF1/RCC_OSC_OUT" type="input"/>
+        <pin num="7" name="NRST" type="input"/>
+        <pin num="8" name="VSSA" type="power_in"/>
+        <pin num="9" name="VDDA" type="power_in"/>
+        <pin num="10" name="ADC_IN0/RTC_TAMP2/SYS_WKUP1/USART2_CTS/PA0" type="BiDi"/>
+        <pin num="11" name="ADC_IN1/USART2_DE/USART2_RTS/PA1" type="BiDi"/>
+        <pin num="12" name="ADC_IN2/TIM15_CH1/USART2_TX/PA2" type="BiDi"/>
+        <pin num="13" name="ADC_IN3/TIM15_CH2/USART2_RX/PA3" type="BiDi"/>
+        <pin num="14" name="ADC_IN4/SPI1_NSS/TIM14_CH1/USART2_CK/PA4" type="BiDi"/>
+        <pin num="15" name="ADC_IN5/SPI1_SCK/PA5" type="BiDi"/>
+        <pin num="16" name="ADC_IN6/SPI1_MISO/TIM16_CH1/TIM1_BKIN/TIM3_CH1/PA6" type="BiDi"/>
+        <pin num="17" name="ADC_IN7/SPI1_MOSI/TIM14_CH1/TIM17_CH1/TIM1_CH1N/TIM3_CH2/PA7" type="BiDi"/>
+        <pin num="18" name="PB0/ADC_IN8/TIM1_CH2N/TIM3_CH3" type="BiDi"/>
+        <pin num="19" name="PB1/ADC_IN9/TIM14_CH1/TIM1_CH3N/TIM3_CH4" type="BiDi"/>
+        <pin num="20" name="PB2" type="BiDi"/>
+        <pin num="21" name="PB10/I2C2_SCL" type="BiDi"/>
+        <pin num="22" name="PB11/I2C2_SDA" type="BiDi"/>
+        <pin num="23" name="VSS" type="power_in"/>
+        <pin num="24" name="VDD" type="power_in"/>
+        <pin num="25" name="PB12/SPI2_NSS/TIM1_BKIN" type="BiDi"/>
+        <pin num="26" name="PB13/SPI2_SCK/TIM1_CH1N" type="BiDi"/>
+        <pin num="27" name="PB14/SPI2_MISO/TIM15_CH1/TIM1_CH2N" type="BiDi"/>
+        <pin num="28" name="PB15/RTC_REFIN/SPI2_MOSI/TIM15_CH1N/TIM15_CH2/TIM1_CH3N" type="BiDi"/>
+        <pin num="29" name="RCC_MCO/TIM1_CH1/USART1_CK/PA8" type="BiDi"/>
+        <pin num="30" name="TIM15_BKIN/TIM1_CH2/USART1_TX/PA9" type="BiDi"/>
+        <pin num="31" name="TIM17_BKIN/TIM1_CH3/USART1_RX/PA10" type="BiDi"/>
+        <pin num="32" name="TIM1_CH4/USART1_CTS/PA11" type="BiDi"/>
+        <pin num="33" name="TIM1_ETR/USART1_DE/USART1_RTS/PA12" type="BiDi"/>
+        <pin num="34" name="IR_OUT/SYS_SWDIO/PA13" type="BiDi"/>
+        <pin num="35" name="PF6/I2C2_SCL" type="BiDi"/>
+        <pin num="36" name="PF7/I2C2_SDA" type="BiDi"/>
+        <pin num="37" name="SYS_SWCLK/USART2_TX/PA14" type="BiDi"/>
+        <pin num="38" name="SPI1_NSS/USART2_RX/PA15" type="BiDi"/>
+        <pin num="39" name="PB3/SPI1_SCK" type="BiDi"/>
+        <pin num="40" name="PB4/SPI1_MISO/TIM3_CH1" type="BiDi"/>
+        <pin num="41" name="PB5/I2C1_SMBA/SPI1_MOSI/TIM16_BKIN/TIM3_CH2" type="BiDi"/>
+        <pin num="42" name="PB6/I2C1_SCL/TIM16_CH1N/USART1_TX" type="BiDi"/>
+        <pin num="43" name="PB7/I2C1_SDA/TIM17_CH1N/USART1_RX" type="BiDi"/>
+        <pin num="44" name="BOOT0" type="input"/>
+        <pin num="45" name="PB8/I2C1_SCL/TIM16_CH1" type="BiDi"/>
+        <pin num="46" name="PB9/I2C1_SDA/IR_OUT/TIM17_CH1" type="BiDi"/>
+        <pin num="47" name="VSS" type="power_in"/>
+        <pin num="48" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="swd-dbg-conn" part="SWD_Conn">
+      <description>SWD Debug Connector</description>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">SWD_Conn</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="input"/>
+        <pin num="2" name="SWDIO" type="BiDi"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="SWDCLK" type="output"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="SWO" type="BiDi"/>
+        <pin num="7" name="NC" type="input"/>
+        <pin num="8" name="NC" type="input"/>
+        <pin num="9" name="GND_D" type="power_in"/>
+        <pin num="10" name="NRST" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="regul" part="TPS79318-EP">
+      <aliases>
+        <alias>TPS79325-EP</alias>
+        <alias>TPS79328-EP</alias>
+        <alias>TPS793285-EP</alias>
+        <alias>TPS79330-EP</alias>
+        <alias>TPS793333-EP</alias>
+        <alias>TPS793475-EP</alias>
+      </aliases>
+      <description>200mA UltraLow-Noise, High-Precision, Fast RF, Low Drop-out Voltage Regualtor, Fixed Output 1.8V, SOT-23</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tps79333-ep.pdf</docs>
+      <footprints>
+        <fp>*SOT-23-5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS79318-EP</field>
+        <field name="Footprint">SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="CE" type="input"/>
+        <pin num="4" name="BYPASS" type="BiDi"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="ts3a44159pwr" part="TS3A44159PWR">
+      <footprints>
+        <fp>16-TSSOP(0.173in_width)</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TS3A44159PWR</field>
+        <field name="Link">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NO2" type="BiDi"/>
+        <pin num="2" name="COM2" type="BiDi"/>
+        <pin num="3" name="NC2" type="BiDi"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="NO3" type="BiDi"/>
+        <pin num="6" name="COM3" type="BiDi"/>
+        <pin num="7" name="NC3" type="BiDi"/>
+        <pin num="8" name="IN3-4" type="input"/>
+        <pin num="9" name="NO4" type="BiDi"/>
+        <pin num="10" name="COM4" type="BiDi"/>
+        <pin num="11" name="NC4" type="BiDi"/>
+        <pin num="12" name="VCC" type="power_in"/>
+        <pin num="13" name="NO1" type="BiDi"/>
+        <pin num="14" name="COM1" type="BiDi"/>
+        <pin num="15" name="NC1" type="BiDi"/>
+        <pin num="16" name="IN1-2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="linear" part="TSV912">
+      <description>Dual Op amp, rail-to-rail, 8MHz, MSOP8, SOIC8</description>
+      <docs>http://www.st.com/resource/en/datasheet/tsv914a.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*Pitch1.27mm*</fp>
+        <fp>MSOP*3x3mm*Pitch0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TSV912</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="linear">
+      <uri>C:\Program Files\KiCad\share\kicad\library\linear.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>C:\Program Files\KiCad\share\kicad\library\regul.lib</uri>
+    </library>
+    <library logical="stm32">
+      <uri>C:\Program Files\KiCad\share\kicad\library\stm32.lib</uri>
+    </library>
+    <library logical="ts3a44159pwr">
+      <uri>C:\Users\onure\Desktop\Github\Hobby Meteorology Station\MyKicadLibrary\ts3a44159pwr.lib</uri>
+    </library>
+    <library logical="swd-dbg-conn">
+      <uri>C:\Users\onure\Desktop\Github\Hobby Meteorology Station\MyKicadLibrary\swd-dbg-conn.lib</uri>
+    </library>
+    <library logical="cap_precision">
+      <uri>C:\Users\onure\Desktop\Github\Hobby Meteorology Station\MyKicadLibrary\cap_precision.lib</uri>
+    </library>
+    <library logical="res_precision">
+      <uri>C:\Users\onure\Desktop\Github\Hobby Meteorology Station\MyKicadLibrary\res_precision.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(U4-Pad14)">
+      <node ref="U4" pin="14"/>
+    </net>
+    <net code="2" name="Net-(U4-Pad33)">
+      <node ref="U4" pin="33"/>
+    </net>
+    <net code="3" name="Net-(U4-Pad32)">
+      <node ref="U4" pin="32"/>
+    </net>
+    <net code="4" name="Net-(U4-Pad29)">
+      <node ref="U4" pin="29"/>
+    </net>
+    <net code="5" name="Net-(U4-Pad17)">
+      <node ref="U4" pin="17"/>
+    </net>
+    <net code="6" name="Net-(U4-Pad16)">
+      <node ref="U4" pin="16"/>
+    </net>
+    <net code="7" name="Net-(U4-Pad15)">
+      <node ref="U4" pin="15"/>
+    </net>
+    <net code="8" name="Net-(U4-Pad13)">
+      <node ref="U4" pin="13"/>
+    </net>
+    <net code="9" name="Net-(U4-Pad12)">
+      <node ref="U4" pin="12"/>
+    </net>
+    <net code="10" name="Net-(U4-Pad4)">
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="11" name="Net-(U4-Pad3)">
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="12" name="Net-(U4-Pad2)">
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="13" name="Net-(U4-Pad36)">
+      <node ref="U4" pin="36"/>
+    </net>
+    <net code="14" name="Net-(U4-Pad35)">
+      <node ref="U4" pin="35"/>
+    </net>
+    <net code="15" name="/BOOT">
+      <node ref="U4" pin="44"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C5" pin="2"/>
+    </net>
+    <net code="16" name="Net-(R20-Pad1)">
+      <node ref="R20" pin="1"/>
+      <node ref="U4" pin="25"/>
+    </net>
+    <net code="17" name="Net-(R21-Pad1)">
+      <node ref="U4" pin="26"/>
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="18" name="Net-(R22-Pad1)">
+      <node ref="R22" pin="1"/>
+      <node ref="U4" pin="27"/>
+    </net>
+    <net code="19" name="/VDDA">
+      <node ref="C18" pin="1"/>
+      <node ref="U4" pin="9"/>
+      <node ref="C19" pin="1"/>
+      <node ref="L1" pin="1"/>
+    </net>
+    <net code="20" name="/UART_RX">
+      <node ref="U4" pin="30"/>
+      <node ref="P7" pin="2"/>
+    </net>
+    <net code="21" name="/UART_TX">
+      <node ref="U4" pin="31"/>
+      <node ref="P7" pin="1"/>
+    </net>
+    <net code="22" name="Net-(R16-Pad1)">
+      <node ref="R16" pin="1"/>
+      <node ref="U4" pin="45"/>
+    </net>
+    <net code="23" name="/SPI_SCK">
+      <node ref="P6" pin="1"/>
+      <node ref="U4" pin="39"/>
+    </net>
+    <net code="24" name="/SPI_NSS">
+      <node ref="U4" pin="38"/>
+      <node ref="P6" pin="4"/>
+    </net>
+    <net code="25" name="/SPI_MOSI">
+      <node ref="U4" pin="41"/>
+      <node ref="P6" pin="3"/>
+    </net>
+    <net code="26" name="/SPI_MISO">
+      <node ref="U4" pin="40"/>
+      <node ref="P6" pin="2"/>
+    </net>
+    <net code="27" name="Net-(R12-Pad2)">
+      <node ref="U3" pin="6"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="28" name="Net-(R10-Pad2)">
+      <node ref="R7" pin="1"/>
+      <node ref="U3" pin="5"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="29" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="U3" pin="3"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="30" name="Net-(R11-Pad2)">
+      <node ref="R11" pin="2"/>
+      <node ref="R6" pin="1"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="31" name="Net-(P4-Pad1)">
+      <node ref="P4" pin="1"/>
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="32" name="Net-(P4-Pad2)">
+      <node ref="U2" pin="6"/>
+      <node ref="P4" pin="2"/>
+    </net>
+    <net code="33" name="Net-(R8-Pad2)">
+      <node ref="R8" pin="2"/>
+      <node ref="U2" pin="9"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="34" name="Net-(R11-Pad1)">
+      <node ref="R11" pin="1"/>
+      <node ref="R13" pin="2"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="35" name="Net-(R12-Pad1)">
+      <node ref="U3" pin="7"/>
+      <node ref="R14" pin="2"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="36" name="Net-(JP1-Pad2)">
+      <node ref="JP1" pin="2"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="37" name="Net-(P3-Pad1)">
+      <node ref="U2" pin="2"/>
+      <node ref="P3" pin="1"/>
+    </net>
+    <net code="38" name="Net-(P3-Pad2)">
+      <node ref="U2" pin="14"/>
+      <node ref="P3" pin="2"/>
+    </net>
+    <net code="39" name="Net-(P1-Pad2)">
+      <node ref="P1" pin="2"/>
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="40" name="Net-(P1-Pad1)">
+      <node ref="P1" pin="1"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="41" name="Net-(P2-Pad1)">
+      <node ref="P2" pin="1"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="42" name="Net-(P2-Pad2)">
+      <node ref="P2" pin="2"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="43" name="VDD">
+      <node ref="C9" pin="2"/>
+      <node ref="U4" pin="1"/>
+      <node ref="U2" pin="12"/>
+      <node ref="U3" pin="8"/>
+      <node ref="U5" pin="5"/>
+      <node ref="JP1" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="L1" pin="2"/>
+      <node ref="C22" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="U1" pin="12"/>
+      <node ref="P8" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="R15" pin="1"/>
+      <node ref="P5" pin="1"/>
+      <node ref="U4" pin="24"/>
+      <node ref="C12" pin="1"/>
+      <node ref="U4" pin="48"/>
+    </net>
+    <net code="44" name="Net-(P5-Pad8)">
+      <node ref="P5" pin="8"/>
+    </net>
+    <net code="45" name="Net-(P5-Pad6)">
+      <node ref="P5" pin="6"/>
+    </net>
+    <net code="46" name="/SWCLK">
+      <node ref="P5" pin="4"/>
+      <node ref="U4" pin="37"/>
+    </net>
+    <net code="47" name="/SWDIO">
+      <node ref="U4" pin="34"/>
+      <node ref="P5" pin="2"/>
+    </net>
+    <net code="48" name="Net-(P5-Pad7)">
+      <node ref="P5" pin="7"/>
+    </net>
+    <net code="49" name="/TXPAIRA+">
+      <node ref="R17" pin="2"/>
+      <node ref="R16" pin="2"/>
+      <node ref="U1" pin="7"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="50" name="/TXPAIRA-">
+      <node ref="U1" pin="3"/>
+      <node ref="R19" pin="2"/>
+      <node ref="R18" pin="2"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="51" name="/TXPAIRB+">
+      <node ref="U2" pin="7"/>
+      <node ref="R20" pin="2"/>
+      <node ref="U2" pin="15"/>
+      <node ref="R21" pin="2"/>
+    </net>
+    <net code="52" name="/TXPAIRB-">
+      <node ref="U2" pin="11"/>
+      <node ref="U2" pin="3"/>
+      <node ref="R22" pin="2"/>
+      <node ref="R23" pin="2"/>
+    </net>
+    <net code="53" name="Net-(R7-Pad2)">
+      <node ref="U2" pin="5"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="54" name="Net-(R5-Pad2)">
+      <node ref="U1" pin="5"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="55" name="Net-(R23-Pad1)">
+      <node ref="R23" pin="1"/>
+      <node ref="U4" pin="28"/>
+    </net>
+    <net code="56" name="Net-(U4-Pad43)">
+      <node ref="U4" pin="43"/>
+    </net>
+    <net code="57" name="Net-(R18-Pad1)">
+      <node ref="R18" pin="1"/>
+      <node ref="U4" pin="21"/>
+    </net>
+    <net code="58" name="Net-(R19-Pad1)">
+      <node ref="U4" pin="22"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="59" name="Net-(R17-Pad1)">
+      <node ref="R17" pin="1"/>
+      <node ref="U4" pin="46"/>
+    </net>
+    <net code="60" name="/A2_TXRXCH_CTRL">
+      <node ref="U1" pin="8"/>
+      <node ref="U4" pin="19"/>
+    </net>
+    <net code="61" name="/B1_TXRXCH_CTRL">
+      <node ref="U4" pin="20"/>
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="62" name="GND">
+      <node ref="C14" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U4" pin="47"/>
+      <node ref="U4" pin="23"/>
+      <node ref="P5" pin="9"/>
+      <node ref="U1" pin="4"/>
+      <node ref="P5" pin="5"/>
+      <node ref="P5" pin="3"/>
+      <node ref="P8" pin="3"/>
+      <node ref="P7" pin="3"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C20" pin="1"/>
+      <node ref="C13" pin="2"/>
+      <node ref="U3" pin="4"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C15" pin="1"/>
+      <node ref="U5" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="U4" pin="8"/>
+      <node ref="U2" pin="4"/>
+      <node ref="P6" pin="5"/>
+    </net>
+    <net code="63" name="/A1_TXRXCH_CTRL">
+      <node ref="U4" pin="18"/>
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="64" name="/VIN">
+      <node ref="U5" pin="3"/>
+      <node ref="C20" pin="2"/>
+      <node ref="P8" pin="1"/>
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="65" name="/B2_TXRXCH_CTRL">
+      <node ref="U4" pin="42"/>
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="66" name="/NRST">
+      <node ref="U4" pin="7"/>
+      <node ref="R15" pin="2"/>
+      <node ref="P5" pin="10"/>
+      <node ref="C12" pin="2"/>
+    </net>
+    <net code="67" name="Net-(C21-Pad1)">
+      <node ref="C21" pin="1"/>
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="68" name="/B_SAMPLING">
+      <node ref="C14" pin="1"/>
+      <node ref="U4" pin="11"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="69" name="/A_SAMPLING">
+      <node ref="C13" pin="1"/>
+      <node ref="U4" pin="10"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="70" name="Net-(R6-Pad2)">
+      <node ref="U1" pin="9"/>
+      <node ref="U1" pin="1"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="71" name="/OP_BIAS">
+      <node ref="R1" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="72" name="Net-(C11-Pad1)">
+      <node ref="Y1" pin="2"/>
+      <node ref="C11" pin="1"/>
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="73" name="Net-(C10-Pad1)">
+      <node ref="U4" pin="5"/>
+      <node ref="C10" pin="1"/>
+      <node ref="Y1" pin="1"/>
+    </net>
+  </nets>
+</export>

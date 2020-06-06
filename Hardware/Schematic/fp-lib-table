@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "oe_crystal")(type "KiCad")(uri "/home/onur/Desktop/GitRepos/oe-kicadlib/Footprints/oe_crystal.pretty")(options "")(descr ""))
+)
