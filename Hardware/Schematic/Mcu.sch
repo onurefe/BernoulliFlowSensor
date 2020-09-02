@@ -1,9 +1,9 @@
-EESchema Schematic File Version 5
-EELAYER 33 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 7
+Sheet 4 7
 Title ""
 Date ""
 Rev ""
@@ -12,11 +12,6 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
-Comment5 ""
-Comment6 ""
-Comment7 ""
-Comment8 ""
-Comment9 ""
 $EndDescr
 Connection ~ 5600 2925
 Connection ~ 4175 4025
@@ -275,7 +270,7 @@ F 3 "" H 7800 2875 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ultrasonic-Flow-Sensor-rescue:R-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue R3
+L Ultrasonic-Flow-Sensor-rescue:R-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue R3
 U 1 1 58F39F96
 P 4800 3375
 F 0 "R3" V 4880 3375 50  0000 C CNN
@@ -288,7 +283,7 @@ F 5 "0.0077$" V 4800 3375 60  0001 C CNN "Price"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Ultrasonic-Flow-Sensor-rescue:C_Precision-cap_precision-Ultrasonic-Flow-Sensor-rescue C10
+L Ultrasonic-Flow-Sensor-rescue:C_Precision-cap_precision-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue C10
 U 1 1 58F378A3
 P 4350 3825
 AR Path="/58F378A3" Ref="C10"  Part="1" 
@@ -303,7 +298,7 @@ F 5 "https://www.digikey.com/product-detail/en/kemet/C0603C180J5GACTU/399-1052-1
 	0    1    1    0   
 $EndComp
 $Comp
-L Ultrasonic-Flow-Sensor-rescue:C_Precision-cap_precision-Ultrasonic-Flow-Sensor-rescue C8
+L Ultrasonic-Flow-Sensor-rescue:C_Precision-cap_precision-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue C8
 U 1 1 5EAD11F0
 P 4350 4225
 AR Path="/5EAD11F0" Ref="C8"  Part="1" 
@@ -318,7 +313,7 @@ F 5 "https://www.digikey.com/product-detail/en/kemet/C0603C180J5GACTU/399-1052-1
 	0    1    1    0   
 $EndComp
 $Comp
-L Ultrasonic-Flow-Sensor-rescue:C-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue C12
+L Ultrasonic-Flow-Sensor-rescue:C-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue C12
 U 1 1 58F0D0FE
 P 4800 3175
 AR Path="/58F0D0FE" Ref="C12"  Part="1" 
@@ -346,7 +341,7 @@ F 5 "0.1242$" V 5300 2700 50  0001 C CNN "Price"
 	0    1    1    0   
 $EndComp
 $Comp
-L Ultrasonic-Flow-Sensor-rescue:C-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue C16
+L Ultrasonic-Flow-Sensor-rescue:C-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue C16
 U 1 1 58EC4449
 P 5300 2925
 AR Path="/58EC4449" Ref="C16"  Part="1" 
@@ -361,7 +356,7 @@ F 5 "0.0237$" H 5300 2925 50  0001 C CNN "Price"
 	0    -1   1    0   
 $EndComp
 $Comp
-L Ultrasonic-Flow-Sensor-rescue:C-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue C15
+L Ultrasonic-Flow-Sensor-rescue:C-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue C15
 U 1 1 5EA972CB
 P 5800 2925
 AR Path="/5EA972CB" Ref="C15"  Part="1" 

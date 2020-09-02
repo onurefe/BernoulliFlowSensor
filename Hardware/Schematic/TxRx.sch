@@ -1,9 +1,9 @@
-EESchema Schematic File Version 5
-EELAYER 33 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 5 7
 Title ""
 Date ""
 Rev ""
@@ -12,11 +12,6 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
-Comment5 ""
-Comment6 ""
-Comment7 ""
-Comment8 ""
-Comment9 ""
 $EndDescr
 Connection ~ 4675 3225
 Connection ~ 4650 2350
@@ -344,7 +339,7 @@ F 5 "0.012$" H 5975 2150 50  0001 C CNN "Price"
 	0    1    1    0   
 $EndComp
 $Comp
-L Ultrasonic-Flow-Sensor-rescue:C-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue C5
+L Ultrasonic-Flow-Sensor-rescue:C-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue C5
 U 1 1 5EA2309F
 P 2200 4300
 AR Path="/5EA2309F" Ref="C5"  Part="1" 
@@ -359,7 +354,7 @@ F 5 "0.0329$" H 2200 4300 60  0001 C CNN "Price"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Ultrasonic-Flow-Sensor-rescue:C-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue C6
+L Ultrasonic-Flow-Sensor-rescue:C-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue C6
 U 1 1 5EA230AE
 P 2200 5200
 AR Path="/5EA230AE" Ref="C6"  Part="1" 
@@ -374,7 +369,7 @@ F 5 "0.0329$" H 2200 5200 60  0001 C CNN "Price"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Ultrasonic-Flow-Sensor-rescue:C-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue C2
+L Ultrasonic-Flow-Sensor-rescue:C-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue C2
 U 1 1 5EAF57D7
 P 4825 2550
 AR Path="/5EAF57D7" Ref="C2"  Part="1" 
@@ -389,7 +384,7 @@ F 5 "0.0329$" H 4825 2550 60  0001 C CNN "Price"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Ultrasonic-Flow-Sensor-rescue:C-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue C4
+L Ultrasonic-Flow-Sensor-rescue:C-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue C4
 U 1 1 5EAFFB1B
 P 4825 3425
 AR Path="/5EAFFB1B" Ref="C4"  Part="1" 
@@ -404,7 +399,7 @@ F 5 "0.0329$" H 4825 3425 60  0001 C CNN "Price"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Ultrasonic-Flow-Sensor-rescue:C-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue C9
+L Ultrasonic-Flow-Sensor-rescue:C-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue C9
 U 1 1 58EE8486
 P 8550 3050
 AR Path="/58EE8486" Ref="C9"  Part="1" 

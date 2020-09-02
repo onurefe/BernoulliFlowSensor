@@ -1,9 +1,9 @@
-EESchema Schematic File Version 5
-EELAYER 33 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 7
+Sheet 7 7
 Title ""
 Date ""
 Rev ""
@@ -12,11 +12,6 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
-Comment5 ""
-Comment6 ""
-Comment7 ""
-Comment8 ""
-Comment9 ""
 $EndDescr
 Connection ~ 4725 3150
 Connection ~ 4525 3150
@@ -346,7 +341,7 @@ F 3 "" H 6625 3525 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Ultrasonic-Flow-Sensor-rescue:R_Precision-res_precision-Ultrasonic-Flow-Sensor-rescue R1
+L Ultrasonic-Flow-Sensor-rescue:R_Precision-res_precision-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue R1
 U 1 1 58F4C02C
 P 3675 1650
 AR Path="/58F4C02C" Ref="R1"  Part="1" 
@@ -363,7 +358,7 @@ F 7 "https://www.digikey.com/product-detail/en/yageo/RC0603FR-074K7L/311-4.70KHR
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ultrasonic-Flow-Sensor-rescue:R_Precision-res_precision-Ultrasonic-Flow-Sensor-rescue R2
+L Ultrasonic-Flow-Sensor-rescue:R_Precision-res_precision-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue R2
 U 1 1 58F43A53
 P 3675 2125
 AR Path="/58F43A53" Ref="R2"  Part="1" 
@@ -391,7 +386,7 @@ F 3 "~" H 6675 2150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Ultrasonic-Flow-Sensor-rescue:C-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue C22
+L Ultrasonic-Flow-Sensor-rescue:C-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue C22
 U 1 1 58ED9358
 P 3550 3350
 AR Path="/58ED9358" Ref="C22"  Part="1" 
@@ -406,7 +401,7 @@ F 5 "0.0329$" H 3550 3350 60  0001 C CNN "Price"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Ultrasonic-Flow-Sensor-rescue:C-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue C1
+L Ultrasonic-Flow-Sensor-rescue:C-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue C1
 U 1 1 58E9353C
 P 3900 2125
 AR Path="/58E9353C" Ref="C1"  Part="1" 
@@ -421,7 +416,7 @@ F 5 "0.0237$" H 3900 2125 60  0001 C CNN "Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ultrasonic-Flow-Sensor-rescue:C-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue C7
+L Ultrasonic-Flow-Sensor-rescue:C-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue C7
 U 1 1 5EB46E87
 P 4150 2125
 AR Path="/5EB46E87" Ref="C7"  Part="1" 
@@ -436,7 +431,7 @@ F 5 "0.0329$" H 4150 2125 60  0001 C CNN "Price"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Ultrasonic-Flow-Sensor-rescue:C-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue C20
+L Ultrasonic-Flow-Sensor-rescue:C-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue C20
 U 1 1 58EC3E00
 P 4725 3350
 AR Path="/58EC3E00" Ref="C20"  Part="1" 
@@ -451,7 +446,7 @@ F 5 "0.0237$" H 4725 3350 60  0001 C CNN "Price"
 	1    0    0    1   
 $EndComp
 $Comp
-L Ultrasonic-Flow-Sensor-rescue:C-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue C17
+L Ultrasonic-Flow-Sensor-rescue:C-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue C17
 U 1 1 5EBBCA45
 P 5450 3350
 AR Path="/5EBBCA45" Ref="C17"  Part="1" 
@@ -466,7 +461,7 @@ F 5 "0.0329$" H 5450 3350 60  0001 C CNN "Price"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Ultrasonic-Flow-Sensor-rescue:C-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue C18
+L Ultrasonic-Flow-Sensor-rescue:C-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue C18
 U 1 1 5EBBCA36
 P 6625 3350
 AR Path="/5EBBCA36" Ref="C18"  Part="1" 

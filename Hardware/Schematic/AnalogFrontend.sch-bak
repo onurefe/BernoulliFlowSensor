@@ -1,9 +1,9 @@
-EESchema Schematic File Version 5
-EELAYER 33 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 7
+Sheet 2 7
 Title ""
 Date ""
 Rev ""
@@ -12,11 +12,6 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
-Comment5 ""
-Comment6 ""
-Comment7 ""
-Comment8 ""
-Comment9 ""
 $EndDescr
 Connection ~ 5550 4150
 Connection ~ 5550 2400
@@ -160,7 +155,7 @@ F 3 "" H 6000 4550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ultrasonic-Flow-Sensor-rescue:R_Precision-res_precision-Ultrasonic-Flow-Sensor-rescue R6
+L Ultrasonic-Flow-Sensor-rescue:R_Precision-res_precision-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue R6
 U 1 1 58F2F446
 P 4625 2500
 AR Path="/58F2F446" Ref="R6"  Part="1" 
@@ -176,7 +171,7 @@ F 6 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/C
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Ultrasonic-Flow-Sensor-rescue:R_Precision-res_precision-Ultrasonic-Flow-Sensor-rescue R9
+L Ultrasonic-Flow-Sensor-rescue:R_Precision-res_precision-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue R9
 U 1 1 5EAAE11D
 P 4625 4250
 AR Path="/5EAAE11D" Ref="R9"  Part="1" 
@@ -259,7 +254,7 @@ F 5 "0.25$" H 5075 3400 50  0001 C CNN "Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ultrasonic-Flow-Sensor-rescue:C-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue C3
+L Ultrasonic-Flow-Sensor-rescue:C-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue C3
 U 1 1 58EC8D7E
 P 5175 3075
 AR Path="/58EC8D7E" Ref="C3"  Part="1" 
@@ -274,7 +269,7 @@ F 5 "0.0237$" H 5175 3075 60  0001 C CNN "Price"
 	0    1    1    0   
 $EndComp
 $Comp
-L Ultrasonic-Flow-Sensor-rescue:C-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue C11
+L Ultrasonic-Flow-Sensor-rescue:C-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue C11
 U 1 1 5EA56652
 P 6000 2600
 AR Path="/5EA56652" Ref="C11"  Part="1" 
@@ -289,7 +284,7 @@ F 5 "0.0945$" H 6000 2600 60  0001 C CNN "Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ultrasonic-Flow-Sensor-rescue:C-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue C13
+L Ultrasonic-Flow-Sensor-rescue:C-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue-Ultrasonic-Flow-Sensor-rescue C13
 U 1 1 5EA3DE50
 P 6000 4350
 AR Path="/5EA3DE50" Ref="C13"  Part="1" 
